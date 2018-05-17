@@ -1,0 +1,35 @@
+
+EMERGENCY PREVENTION SYSTEM
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Field's width is M = 10
+Field's height is N = 10
+
+Entered ranks plank with following borders:
+NoneRisk = 1-2;
+MinorRisk = 3-4;
+NormalRisk = 5-6;
+MajorRisk = 7-9;
+CriticalRisk = 10-2147483647;
+
+--------------------------------------------------------------------------------
+    0  1  2  3  4  5  6  7  8  9
+ 0 |X||X| -  -  - |X||X||X||X| - 
+ 1 |X||X| - |X| - |X| -  -  - |X|
+ 2 |X| -  - |X| - |X||X||X||X| - 
+ 3  - |X| -  - |X||X| - |X| -  - 
+ 4  - |X| - |X| - |X| -  -  - |X|
+ 5 |X||X||X| - |X||X| - |X||X| - 
+ 6 |X||X| - |X| -  -  -  -  -  - 
+ 7 |X||X||X| - |X||X| -  -  -  - 
+ 8  - |X||X||X||X| - |X||X| - |X|
+ 9 |X| -  - |X||X| - |X||X| -  - 
+
+
+Risk groups report:
+--------------------------------------------------------------------------------
+NoneRisk: 8 groups;
+MinorRisk: 1 groups;
+NormalRisk: 1 groups;
+MajorRisk: 0 groups;
+CriticalRisk: 2 groups;
