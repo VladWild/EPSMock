@@ -12,13 +12,13 @@ public class Optimal3 extends Search {
         super(bean);
     }
 
-    private Group getGroupByCell(Cell cell){
+    private Group getGroupByCell(Cell cell) {
         Set<Cell> group = new HashSet<>();
         group.add(cell);
 
         Set<Cell> buffer = new HashSet<>(group);
 
-        while (!buffer.isEmpty()){
+        while (!buffer.isEmpty()) {
             Set<Cell> allNeighbors = new HashSet<>();
             for (Cell currentCell : buffer) {
                 allNeighbors.addAll(reviewSector.getNeighbors(currentCell));

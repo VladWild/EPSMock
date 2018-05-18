@@ -17,11 +17,11 @@ import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class EpsResourceBundleAnnotationContextTuningBeansTest {
-
-	private final int PROCESSORS_COUNT = 2;
-	private final int BEANS_COUNT = 3;
-	private final int PROCESS_METHOD_INVOKES_COUNT = PROCESSORS_COUNT
+	private static final int PROCESSORS_COUNT = 2;
+	private static final int BEANS_COUNT = 3;
+	private static final int PROCESS_METHOD_INVOKES_COUNT = PROCESSORS_COUNT
 			* BEANS_COUNT;
+
 	private EpsResourceBundleAnnotationContext epsContext;
 	@Mock
 	private EpsBeanProcessor processorMock;

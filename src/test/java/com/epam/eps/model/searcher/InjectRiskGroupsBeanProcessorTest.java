@@ -112,7 +112,7 @@ public class InjectRiskGroupsBeanProcessorTest {
 			+ "{ - |X||X||X||X||X| - |X| - |X||X|}"
 			+ "{ - |X| -  - |X||X| - |X| -  - |X|}";
 
-	private class TargetClassMock {
+	private static class TargetClassMock {
 		@InjectRiskGroups(viewFieldId = "viewFieldId")
 		Group[] groups = {};
 	}

@@ -30,7 +30,7 @@ public class RandomSectorBeanProcessorTest {
 		processor = new RandomSectorBeanProcessor();
 	}
 
-	private class TargetClassMock {
+	private static class TargetClassMock {
 		@RandomSector(width = WIDTH, height = HEIGHT, fillFactor = PROBABILITY)
 		Cell[][] field;
 	}

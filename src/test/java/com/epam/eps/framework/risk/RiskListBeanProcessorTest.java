@@ -31,7 +31,7 @@ public class RiskListBeanProcessorTest {
 	@Mock
 	private Object third;
 
-	private class TargetClassMock {
+	private static class TargetClassMock {
 
 		private static final String EPS_BEAN_ID_RISK_FIRST = "eps.bean.id.risk.first";
 		private static final String EPS_BEAN_ID_RISK_SECOND = "eps.bean.id.risk.second";

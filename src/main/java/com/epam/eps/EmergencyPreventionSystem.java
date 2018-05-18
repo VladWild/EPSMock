@@ -48,7 +48,7 @@ import java.util.Locale;
 public class EmergencyPreventionSystem {
     private static final String REPORT_ID = "eps.bean.id.simpleReport";
 
-    public void run() throws IOException {
+    private void run() throws IOException {
         Locale.setDefault(new Locale("en"));
         EpsResourceBundleAnnotationContext epsResourceBundleAnnotationContext = new EpsResourceBundleAnnotationContext(
                 "config");
@@ -57,7 +57,7 @@ public class EmergencyPreventionSystem {
         Report report = (Report) epsResourceBundleAnnotationContext.getEPSBean(REPORT_ID);
 
         Printer printer = FactoryPrinters.getTypePrinter(FactoryPrinters.FILE);
-        printer.print(report.getReport().toString());
+        printer.print(report.getReport());
     }
 
     public static void main(String[] args) {

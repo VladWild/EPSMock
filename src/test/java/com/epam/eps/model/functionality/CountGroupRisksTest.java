@@ -70,7 +70,6 @@ public class CountGroupRisksTest {
     @Test
     public void countGroupMajorRiskTest(){
         MajorRisk majorRisk = (MajorRisk) epsResourceBundleAnnotationContext.getEPSBean(RISK_MAJOR_ID);
-        System.out.println(majorRisk.getGroups());
         assertEquals(2, majorRisk.getGroups().size());
     }
 
