@@ -2,8 +2,8 @@ package com.epam.eps.model.algorithm;
 
 import com.epam.eps.model.algorithm.searchdeep.Cycle;
 import com.epam.eps.model.algorithm.searchdeep.Recursion;
-import com.epam.eps.model.algorithm.searchwidth.MapUse;
-import com.epam.eps.model.algorithm.searchwidth.SetUse;
+import com.epam.eps.model.algorithm.searchwidth.Streams;
+import com.epam.eps.model.algorithm.searchwidth.Cycles;
 
 public enum FactoryAlgorithms {
     DEEP_RECURSION {
@@ -18,34 +18,16 @@ public enum FactoryAlgorithms {
             return new Cycle(bean);
         }
     },
-    WIDTH_SET {
+    WIDTH_CYCLES {
         @Override
         protected Algorithm getAlgorithm(Object bean) {
-            return new SetUse(bean);
+            return new Cycles(bean);
         }
     },
-    WIDTH_MAP {
+    WIDTH_STREAMS {
         @Override
         protected Algorithm getAlgorithm(Object bean) {
-            return new MapUse(bean);
-        }
-    },
-    OPTIMAL {
-        @Override
-        protected Algorithm getAlgorithm(Object bean) {
-            return new Optimal(bean);
-        }
-    },
-    OPTIMAL2 {
-        @Override
-        protected Algorithm getAlgorithm(Object bean) {
-            return new Optimal2(bean);
-        }
-    },
-    OPTIMAL3 {
-        @Override
-        protected Algorithm getAlgorithm(Object bean) {
-            return new Optimal3(bean);
+            return new Streams(bean);
         }
     };
 
@@ -55,7 +37,4 @@ public enum FactoryAlgorithms {
         return algorithmType.getAlgorithm(bean);
     }
 }
-
-
-
 

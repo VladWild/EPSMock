@@ -1,7 +1,8 @@
-package com.epam.eps.model.algorithm;
+package com.epam.eps.model.algorithm.searchwidth;
 
 import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.core.Group;
+import com.epam.eps.model.algorithm.Search;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -9,9 +10,9 @@ import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class Optimal2 extends Search {
+public class Streams extends Search {
 
-    public Optimal2(Object bean) {
+    public Streams(Object bean) {
         super(bean);
     }
 
@@ -34,8 +35,10 @@ public class Optimal2 extends Search {
 
     @Override
     public Group[] getGroups() {
-        reviewSector.getOccupied().stream().filter(((Predicate<Cell>) super::isCellInGroups).negate()).forEach(cell -> groups.add(getGroupByCell(cell)));
+        reviewSector.getOccupied().stream()
+                .filter(((Predicate<Cell>) super::isCellInGroups).negate())
+                .forEach(cell -> groups.add(getGroupByCell(cell)));
 
-        return groups.stream().toArray(Group[]::new);
+        return groups.toArray(new Group[groups.size()]);
     }
 }

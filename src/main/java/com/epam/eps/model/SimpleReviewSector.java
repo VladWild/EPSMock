@@ -1,7 +1,6 @@
 package com.epam.eps.model;
 
 import com.epam.eps.framework.core.Cell;
-import com.epam.eps.framework.core.ReviewSector;
 import com.epam.eps.framework.support.randomsector.RandomSector;
 
 import java.util.Arrays;
@@ -52,23 +51,27 @@ public class SimpleReviewSector implements ReviewSector {
         int y = cell.getY();
 
         if (isCellInField(x - 1, y)) {
-            if (cells[y][x - 1] != null)
+            if (cells[y][x - 1] != null) {
                 neighboringCells.add(cells[y][x - 1]);
+            }
         }
 
         if (isCellInField(x + 1, y)) {
-            if (cells[y][x + 1] != null)
+            if (cells[y][x + 1] != null) {
                 neighboringCells.add(cells[y][x + 1]);
+            }
         }
 
         if (isCellInField(x, y - 1)) {
-            if (cells[y - 1][x] != null)
+            if (cells[y - 1][x] != null) {
                 neighboringCells.add(cells[y - 1][x]);
+            }
         }
 
         if (isCellInField(x, y + 1)) {
-            if (cells[y + 1][x] != null)
+            if (cells[y + 1][x] != null) {
                 neighboringCells.add(cells[y + 1][x]);
+            }
         }
 
         return neighboringCells;

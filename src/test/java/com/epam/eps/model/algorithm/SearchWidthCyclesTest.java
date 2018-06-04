@@ -3,7 +3,7 @@ package com.epam.eps.model.algorithm;
 import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.core.EpsContext;
 import com.epam.eps.framework.core.Group;
-import com.epam.eps.framework.core.ReviewSector;
+import com.epam.eps.model.ReviewSector;
 import com.epam.eps.framework.support.FieldFormatUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class SearchWidthSetUseTest {
+public class SearchWidthCyclesTest {
     @Mock
     private EpsContext context;
     @Mock
@@ -52,7 +52,7 @@ public class SearchWidthSetUseTest {
         occupied.forEach(cell -> when(reviewSectorMock.getNeighbors(cell))
                 .thenReturn(neighborSet(cell, field)));
 
-        Group[] groups = FactoryAlgorithms.getTypeAlgorithm(FactoryAlgorithms.WIDTH_SET,
+        Group[] groups = FactoryAlgorithms.getTypeAlgorithm(FactoryAlgorithms.WIDTH_CYCLES,
                 context.getEPSBean("viewMyFieldId")).getGroups();
 
         assertEquals(groups.length, COUNT_GROUPS);

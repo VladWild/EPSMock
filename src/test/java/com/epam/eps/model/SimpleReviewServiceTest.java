@@ -2,7 +2,6 @@ package com.epam.eps.model;
 
 import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.core.EpsResourceBundleAnnotationContext;
-import com.epam.eps.framework.core.ReviewSector;
 import com.epam.eps.framework.support.FieldFormatUtil;
 import org.junit.Before;
 import org.junit.Test;

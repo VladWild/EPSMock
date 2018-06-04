@@ -1,4 +1,6 @@
-package com.epam.eps.framework.core;
+package com.epam.eps.model;
+
+import com.epam.eps.framework.core.Cell;
 
 import java.util.Set;
 

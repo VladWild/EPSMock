@@ -3,7 +3,7 @@ package com.epam.eps.model.algorithm;
 import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.core.EpsContext;
 import com.epam.eps.framework.core.Group;
-import com.epam.eps.framework.core.ReviewSector;
+import com.epam.eps.model.ReviewSector;
 import com.epam.eps.framework.support.FieldFormatUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;

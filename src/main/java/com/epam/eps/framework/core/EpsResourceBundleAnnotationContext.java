@@ -37,8 +37,8 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 
 	@Override
 	public void init() {
-		registeredEpsBeanProcessors();				//регистрация общих и специальных бинов - кладем в Map<String, EpsBeanProcessor> - 1) epsCommonBeanProcessors; 2) epsSpecialBeanProcessors
-		registeredEpsBeanDefinitions();				//регистрация определений - кладем в Map<String, Object> - 1) epsCommonBeanDefinitions
+		registeredEpsBeanProcessors();
+		registeredEpsBeanDefinitions();
 		tuningEpsBeans(epsCommonBeanProcessors);
 		tuningEpsBeans(epsSpecialBeanProcessors);
 		doInit();
@@ -79,7 +79,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 				.putAll(generateBeansFromDefinitions(commonDefinitionsList));
 	}
 
-	public Map<String, EpsBeanProcessor> generateBeansFromDefinitions(
+	private Map<String, EpsBeanProcessor> generateBeansFromDefinitions(
 			String definitionsList) {
 		Map<String, EpsBeanProcessor> epsBeans = new LinkedHashMap<>();
 		String[] epsBeanDefinitionsClassNames = definitionsList

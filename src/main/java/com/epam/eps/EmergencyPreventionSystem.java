@@ -56,7 +56,7 @@ public class EmergencyPreventionSystem {
 
         Report report = (Report) epsResourceBundleAnnotationContext.getEPSBean(REPORT_ID);
 
-        Printer printer = FactoryPrinters.getTypePrinter(FactoryPrinters.FILE);
+        Printer printer = FactoryPrinters.getTypePrinter(FactoryPrinters.CONSOLE);
         printer.print(report.getReport());
     }
 

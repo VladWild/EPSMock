@@ -2,10 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77d580c9-2aad-4977-93d2-86d795169a27" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/EmergencyPreventionSystem.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/EmergencyPreventionSystem.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Cell.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Cell.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/Min.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/Min.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/EpsResourceBundleAnnotationContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/EpsResourceBundleAnnotationContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/ReviewSector.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/ReviewSector.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReport.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReport.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReviewSector.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReviewSector.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/FactoryAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/FactoryAlgorithms.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal2.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Streams.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal3.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Cycles.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Search.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Search.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/MapUse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/SetUse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Width.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output" afterPath="$PROJECT_DIR$/src/main/resources/output" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleReviewServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleReviewServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepCycleTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepCycleTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepRecursionTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepRecursionTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthMapUseTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthStreamsTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthSetUseTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthCyclesTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessorTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/EmergencyPreventionSystem.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/EmergencyPreventionSystem.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/framework/core/Cell.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/framework/core/Cell.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/framework/core/EpsResourceBundleAnnotationContext.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/framework/core/EpsResourceBundleAnnotationContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/framework/core/ReviewSector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/SimpleReport.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/SimpleReport.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/SimpleReviewSector.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/SimpleReviewSector.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms$3.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms$4.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/FactoryAlgorithms.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/Optimal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/Optimal2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/Optimal3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/Search.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/Search.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchdeep/Cycle.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchdeep/Cycle.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchdeep/Deep.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchdeep/Deep.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchdeep/Recursion.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchdeep/Recursion.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchwidth/MapUse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchwidth/SetUse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/algorithm/searchwidth/Width.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output" afterPath="$PROJECT_DIR$/target/classes/output" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/SimpleReviewServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/SimpleReviewServiceTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/algorithm/SearchDeepCycleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/algorithm/SearchDeepCycleTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/algorithm/SearchDeepRecursionTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/algorithm/SearchDeepRecursionTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/algorithm/SearchWidthMapUseTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/algorithm/SearchWidthSetUseTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessorTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,43 +76,12 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddAnotherOneGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/AddAnotherOneGroup.java">
+    <leaf>
+      <file leaf-file-name="checkstyle-idea.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/checkstyle-idea.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Cell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_config.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/test_config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+            <state relative-caret-position="272">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -99,37 +120,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/Optimal3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/Algorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/Optimal2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/Optimal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/FactoryAlgorithms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/searchwidth/Width.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/searchwidth/SetUse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/searchwidth/MapUse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/searchdeep/Deep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/searchdeep/Cycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/risk/CriticalRisk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/risk/MajorRisk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/risk/NoneRisk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/risk/NormalRisk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/framework/support/risk/RiskListBeanProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/framework/support/risk/RiskZoneBeanProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/framework/support/FieldFormatUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/framework/support/randomsector/RandomSectorBeanProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/framework/support/inject/InjectBeanProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eps/model/algorithm/searchdeep/Recursion.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/framework/mocks/NoneRisk.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/framework/core/EpsResourceBundleAnnotationContextBasicTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/risk/MinorRiskTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/data.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/test_config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/CountGroupNoneRiskTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/SectorBeanProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/FieldFormatUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/CountGroupRisksTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleEpsServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/framework/randomsector/RandomSectorBeanProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/framework/risk/RiskListBeanProcessorTest.java" />
@@ -138,18 +134,43 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/printers/FilePrinter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleReviewServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleReportTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/EmergencyPreventionSystem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Search.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Group.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal2.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepRecursionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Cell.java" />
         <option value="$PROJECT_DIR$/.idea/checkstyle-filter.xml" />
         <option value="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/Min.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sun_checks.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/EmergencyPreventionSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/EpsResourceBundleAnnotationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Init.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReviewSector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/Deep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/Optimal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/RecursionOptimal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Optimal2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Optimal3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/Cycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/Recursion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepCycleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthMapUseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthSetUseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthCysleUseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthCyclesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthStreamsUseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthStreamsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/CycleUse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Cycles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/StreamsUse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Streams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/FactoryAlgorithms.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -160,8 +181,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="275" />
-    <option name="y" value="19" />
+    <option name="x" value="239" />
+    <option name="y" value="44" />
     <option name="width" value="1055" />
     <option name="height" value="1025" />
   </component>
@@ -206,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,12 +238,6 @@
               <item name="EPSMock" type="b2602c69:ProjectViewProjectNode" />
               <item name="EPSMock" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EPSMock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EPSMock" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="checkstyleidea-libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EPSMock" type="b2602c69:ProjectViewProjectNode" />
@@ -541,33 +555,37 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/EPSMock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.findbugs.project" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="System.out&#9;null&#9;null&#10;FieldFormatUtil&#9;PSI&#9;JAVA://com.epam.eps.framework.support.FieldFormatUtil" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="project.annotations.utilities" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.epam.eps.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\EPSMock\src\main\resources" />
       <recent name="D:\Projects\EPSMock\.idea" />
       <recent name="D:\Projects\EPSMock\src\test\java\com\epam\eps\model" />
       <recent name="D:\Projects\EPSMock\src\test\java\com\epam\eps\framework" />
       <recent name="D:\Projects\EPSMock\src\test\java" />
-      <recent name="D:\Projects\EPSMock\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -588,7 +606,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchDeepRecursionTest.countGroupRiskTest">
+  <component name="RunManager" selected="Application.EmergencyPreventionSystem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -629,20 +647,15 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="InjectBeanProcessorTest.dontProcessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.epam.eps.framework.inject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in EPSMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="EPSMock" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.epam.eps.framework.inject" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.eps.framework.inject.InjectBeanProcessorTest" />
-      <option name="METHOD_NAME" value="dontProcessTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -654,7 +667,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SearchDeepCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchDeepRecursionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.epam.eps.model.algorithm.*" />
@@ -665,7 +678,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.epam.eps.model.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.eps.model.algorithm.SearchDeepCycleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.eps.model.algorithm.SearchDeepRecursionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -679,7 +692,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SearchDeepRecursionTest.countGroupRiskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchWidthCyclesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.epam.eps.model.algorithm.*" />
@@ -690,9 +703,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.epam.eps.model.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.eps.model.algorithm.SearchDeepRecursionTest" />
-      <option name="METHOD_NAME" value="countGroupRiskTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.eps.model.algorithm.SearchWidthCyclesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -704,18 +717,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SimpleReportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchWidthStreamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.epam.eps.model.*" />
+          <option name="PATTERN" value="com.epam.eps.model.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="EPSMock" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.epam.eps.model" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.eps.model.SimpleReportTest" />
+      <option name="PACKAGE_NAME" value="com.epam.eps.model.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.eps.model.algorithm.SearchWidthStreamsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -802,19 +815,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SimpleReportTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.InjectBeanProcessorTest.dontProcessTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EmergencyPreventionSystem" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SearchDeepCycleTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SearchDeepRecursionTest.countGroupRiskTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.EmergencyPreventionSystem" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SearchDeepRecursionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SearchWidthCyclesTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SearchWidthStreamsTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in EPSMock" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SearchDeepRecursionTest.countGroupRiskTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SearchDeepCycleTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EmergencyPreventionSystem" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InjectBeanProcessorTest.dontProcessTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SimpleReportTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.EmergencyPreventionSystem" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in EPSMock" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SearchWidthStreamsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SearchWidthCyclesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SearchDeepRecursionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -839,44 +852,47 @@
       <workItem from="1526558180107" duration="1479000" />
       <workItem from="1526629153640" duration="1910000" />
       <workItem from="1526631098761" duration="1818000" />
-      <workItem from="1526633123921" duration="18667000" />
+      <workItem from="1526633123921" duration="18743000" />
+      <workItem from="1528103986666" duration="5149000" />
+      <workItem from="1528109164685" duration="5360000" />
+      <workItem from="1528114773507" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InjectBeanProcessorTest_dontProcessTest - 2018.05.18 at 15h 32m 46s.xml">
-      <configuration name="InjectBeanProcessorTest.dontProcessTest" configurationId="JUnit" />
+    <history-entry file="All_in_EPSMock - 2018.06.04 at 14h 43m 56s.xml">
+      <configuration name="All in EPSMock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchDeepCycleTest - 2018.05.18 at 16h 30m 34s.xml">
+    <history-entry file="All_in_EPSMock - 2018.06.04 at 14h 46m 12s.xml">
+      <configuration name="All in EPSMock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_EPSMock - 2018.06.04 at 14h 47m 29s.xml">
+      <configuration name="All in EPSMock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_EPSMock - 2018.06.04 at 15h 13m 49s.xml">
+      <configuration name="All in EPSMock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_EPSMock - 2018.06.04 at 15h 15m 31s.xml">
+      <configuration name="All in EPSMock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomSectorBeanProcessorTest - 2018.06.04 at 14h 47m 23s.xml">
+      <configuration name="RandomSectorBeanProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchDeepCycleTest - 2018.06.04 at 15h 08m 17s.xml">
       <configuration name="SearchDeepCycleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchDeepRecursionTest_countGroupRiskTest - 2018.05.18 at 16h 39m 47s.xml">
-      <configuration name="SearchDeepRecursionTest.countGroupRiskTest" configurationId="JUnit" />
+    <history-entry file="SearchDeepRecursionTest - 2018.06.04 at 15h 08m 32s.xml">
+      <configuration name="SearchDeepRecursionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SearchDeepRecursionTest_countGroupRiskTest - 2018.05.18 at 17h 00m 49s.xml">
-      <configuration name="SearchDeepRecursionTest.countGroupRiskTest" configurationId="JUnit" />
+    <history-entry file="SearchWidthCyclesTest - 2018.06.04 at 15h 10m 26s.xml">
+      <configuration name="SearchWidthCyclesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleReportTest - 2018.05.18 at 15h 23m 44s.xml">
-      <configuration name="SimpleReportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleReportTest - 2018.05.18 at 15h 23m 49s.xml">
-      <configuration name="SimpleReportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleReportTest_getReportTest - 2018.05.18 at 15h 22m 01s.xml">
-      <configuration name="SimpleReportTest.getReportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleReportTest_getReportTest - 2018.05.18 at 15h 23m 01s.xml">
-      <configuration name="SimpleReportTest.getReportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleReportTest_getReportTest - 2018.05.18 at 15h 23m 16s.xml">
-      <configuration name="SimpleReportTest.getReportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleReportTest_getReportTest - 2018.05.18 at 15h 23m 36s.xml">
-      <configuration name="SimpleReportTest.getReportTest" configurationId="JUnit" />
+    <history-entry file="SearchWidthStreamsTest - 2018.06.04 at 15h 10m 48s.xml">
+      <configuration name="SearchWidthStreamsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69751000" />
+    <option name="totallyTimeSpent" value="80347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -885,21 +901,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19324182" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27349526" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27349526" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21354167" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -910,7 +924,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -926,87 +942,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/framework/support/FieldFormatUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/inject/InjectBeanProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/risk/MajorRiskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/risk/CriticalRiskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/EpsBeanProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="33" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/RiskZoneBeanProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/EpsResourceBundleAnnotationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/Sector.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/risk/MajorRisk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/FieldFormatUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/CountGroupRisksTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,366 +954,380 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/SectorBeanProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleEpsServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/framework/randomsector/RandomSectorBeanProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/framework/core/EpsResourceBundleAnnotationContextTuningBeansTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="293" column="13" lean-forward="false" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
-          <folding>
-            <element signature="e#9703#9704#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/output">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
-          <caret line="311" column="16" lean-forward="false" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/printers/FactoryPrinters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#139#140#0" expanded="false" />
-            <element signature="e#190#191#0" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/framework/inject/InjectBeanProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1471#1472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleReportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/SimpleReviewServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/printers/FilePrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/EmergencyPreventionSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="141" column="44" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding>
-            <element signature="e#5352#5353#0" expanded="true" />
-            <element signature="e#5406#5407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReviewSector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleEpsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepCycleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="method#neighborSet#0;class#SearchDeepCycleTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepRecursionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="e#799#826#0" expanded="true" />
-            <element signature="method#neighborSet#0;class#SearchDeepRecursionTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/framework/risk/RiskListBeanProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding>
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Optimal2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/randomsector/RandomSector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="e#2367#2373#0" expanded="true" />
-            <element signature="e#4699#4726#0" expanded="true" />
-            <element signature="e#5425#5426#0" expanded="true" />
-            <element signature="e#5479#5480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="573" column="68" lean-forward="false" selection-start-line="573" selection-start-column="62" selection-end-line="573" selection-end-column="68" />
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/AddAnotherOneGroup.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/Max.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthMapUseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/checkstyle-filter.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/core/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/checkstyle-filter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/Min.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/RiskList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24860">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/RiskListBeanProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/RiskZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/risk/RiskZoneBeanProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/EpsBeanProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/framework/support/FieldFormatUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/MapUse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/printers/ConsolePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/printers/FactoryPrinters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/printers/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/printers/FilePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/risk/CriticalRisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/risk/MajorRisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/risk/MinorRisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/risk/NoneRisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/risk/NormalRisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/searcher/InjectRiskGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/EpsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/ReviewSector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleEpsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/framework/randomsector/RandomSectorBeanProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/EmergencyPreventionSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="58" column="80" lean-forward="false" selection-start-line="58" selection-start-column="80" selection-end-line="58" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReviewSector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/SimpleReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="76" column="13" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding>
+            <element signature="e#5151#5152#0" expanded="false" />
+            <element signature="e#5205#5206#0" expanded="false" />
+            <element signature="e#5261#5262#0" expanded="false" />
+            <element signature="e#5315#5316#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/risk/Risk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/RecursionOptimal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/SetUse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Width.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/Recursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/searcher/InjectRiskGroupsBeanProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepCycleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#785#812#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchDeepRecursionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthCyclesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" column="83" lean-forward="false" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/algorithm/SearchWidthStreamsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" column="85" lean-forward="false" selection-start-line="54" selection-start-column="85" selection-end-line="54" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Cycles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/FactoryAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#832#833#0" expanded="false" />
+            <element signature="e#880#881#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchwidth/Streams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/CountGroupRisksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="e#1024#1051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/eps/model/functionality/SectorBeanProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/eps/model/algorithm/searchdeep/Deep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1381,15 +1335,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/checkstyle-idea.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/test_config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>

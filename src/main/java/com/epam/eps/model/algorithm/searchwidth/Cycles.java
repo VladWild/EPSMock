@@ -1,14 +1,15 @@
-package com.epam.eps.model.algorithm;
+package com.epam.eps.model.algorithm.searchwidth;
 
 import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.core.Group;
+import com.epam.eps.model.algorithm.Search;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Optimal3 extends Search {
+public class Cycles extends Search {
 
-    public Optimal3(Object bean) {
+    public Cycles(Object bean) {
         super(bean);
     }
 

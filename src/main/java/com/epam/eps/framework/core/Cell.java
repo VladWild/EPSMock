@@ -1,7 +1,6 @@
 package com.epam.eps.framework.core;
 
 public class Cell {
-
     private int x;
     private int y;
 
@@ -35,9 +34,8 @@ public class Cell {
 
         Cell cell = (Cell) o;
 
-        if (x != cell.x)
-            return false;
-        return y == cell.y;
+        return (y == cell.y) &&
+                (x == cell.x);
     }
 
     @Override

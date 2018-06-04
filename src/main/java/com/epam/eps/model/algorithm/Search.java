@@ -2,7 +2,7 @@ package com.epam.eps.model.algorithm;
 
 import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.core.Group;
-import com.epam.eps.framework.core.ReviewSector;
+import com.epam.eps.model.ReviewSector;
 
 import java.util.ArrayList;
 import java.util.List;

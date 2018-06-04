@@ -4,12 +4,10 @@
 package com.epam.eps.model;
 
 import com.epam.eps.framework.core.Cell;
-import com.epam.eps.framework.core.ReviewSector;
 import com.epam.eps.framework.support.inject.Inject;
 import com.epam.eps.framework.support.risk.RiskList;
 import com.epam.eps.model.risk.Risk;
 
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -52,7 +50,7 @@ public class SimpleReport implements Report {
     private ReviewSector reviewSector;
 
     //get count of input symbol
-    public String getCountSymbols(String symbol, int count) {
+    private String getCountSymbols(String symbol, int count) {
         StringBuilder symbols = new StringBuilder();
 
         for (int i = 0; i < count; i++) {
@@ -76,14 +74,14 @@ public class SimpleReport implements Report {
         report.append(EQUALLY);
         report.append(String.format(WITH_ENTER, String.format(WITH_ENTER, reviewSector.getHeight())));
         report.append(String.format(WITH_ENTER, RANKS + COLON));
-        risks.stream().forEach(risk -> report.append(String.format(WITH_ENTER,
+        risks.forEach(risk -> report.append(String.format(WITH_ENTER,
                 risk.getClass().getSimpleName() + EQUALLY + risk.getMin() + TRAIT + risk.getMax() + SEMICOLON)));
         report.append(String.format(ENTER));
         report.append(String.format(WITH_ENTER, getCountSymbols(TRAIT, COUNT_TRAIT)));
         report.append(String.format(WITH_ENTER, String.format(WITH_ENTER, getSector(reviewSector.getSector()))));
         report.append(String.format(WITH_ENTER, RISK_GROUPS_REPORT + COLON));
         report.append(String.format(WITH_ENTER, getCountSymbols(TRAIT, COUNT_TRAIT)));
-        risks.stream().forEach(risk -> report.append(String.format(WITH_ENTER,
+        risks.forEach(risk -> report.append(String.format(WITH_ENTER,
                 risk.getClass().getSimpleName() + COLON + SPACE + risk.getGroups().size() + SPACE + GROUPS + SEMICOLON)));
 
         return report.toString();

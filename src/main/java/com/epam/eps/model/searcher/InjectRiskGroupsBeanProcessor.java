@@ -15,7 +15,7 @@ public class InjectRiskGroupsBeanProcessor implements EpsBeanProcessor {
         for (Field field : declaredFields) {
             if (field.isAnnotationPresent(InjectRiskGroups.class)) {
                 String id = field.getAnnotation(InjectRiskGroups.class).viewFieldId();
-                Group groups[] = FactoryAlgorithms.getTypeAlgorithm(FactoryAlgorithms.OPTIMAL3,
+                Group groups[] = FactoryAlgorithms.getTypeAlgorithm(FactoryAlgorithms.WIDTH_STREAMS,
                         context.getEPSBean(id)).getGroups();
                 for (Group group : groups) {
                     context.takeAccountGroup(group);
