@@ -7,6 +7,8 @@ import com.epam.eps.framework.core.EpsResourceBundleAnnotationContext;
 import com.epam.eps.model.Report;
 import com.epam.eps.model.printers.FactoryPrinters;
 import com.epam.eps.model.printers.Printer;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -48,6 +50,8 @@ import java.util.Locale;
 public class EmergencyPreventionSystem {
     private static final String REPORT_ID = "eps.bean.id.simpleReport";
 
+    private final static Logger logger = Logger.getLogger(EmergencyPreventionSystem.class);
+
     private void run() throws IOException {
         Locale.setDefault(new Locale("en"));
         EpsResourceBundleAnnotationContext epsResourceBundleAnnotationContext = new EpsResourceBundleAnnotationContext(
@@ -56,11 +60,19 @@ public class EmergencyPreventionSystem {
 
         Report report = (Report) epsResourceBundleAnnotationContext.getEPSBean(REPORT_ID);
 
-        Printer printer = FactoryPrinters.getTypePrinter(FactoryPrinters.CONSOLE);
+        Printer printer = FactoryPrinters.getTypePrinter(FactoryPrinters.FILE);
         printer.print(report.getReport());
     }
 
     public static void main(String[] args) {
+        //PropertyConfigurator.configure("src/main/resources/log4j.properties");
+        PropertyConfigurator.configure("src/main/resources/log4j.xml");
+        logger.info("start application");
+        logger.debug("cdcce wcetyhwc");
+        logger.debug("cdcce wceewewdewdewdtyhwc");
+        logger.trace("trace");
+        logger.error("error message ");
+
         EmergencyPreventionSystem emergencyPreventionSystem = new EmergencyPreventionSystem();
         try {
             emergencyPreventionSystem.run();

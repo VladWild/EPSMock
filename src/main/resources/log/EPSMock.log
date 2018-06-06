@@ -1,0 +1,7 @@
+2018-06-06 16:56:25 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - start application
+2018-06-06 16:56:25 [epam.eps.EmergencyPreventionSystem] DEBUG [main]: - cdcce wcetyhwc
+2018-06-06 16:56:25 [epam.eps.EmergencyPreventionSystem] DEBUG [main]: - cdcce wceewewdewdewdtyhwc
+2018-06-06 16:56:25 [epam.eps.EmergencyPreventionSystem] TRACE [main]: - trace
+2018-06-06 16:56:25 [epam.eps.EmergencyPreventionSystem] ERROR [main]: - error message 
+2018-06-06 16:56:25 [EpsResourceBundleAnnotationContext] INFO  [main]: - log in EpsResourceBundleAnnotationContext class
+2018-06-06 16:56:25 [EpsResourceBundleAnnotationContext] INFO  [main]: - logger2

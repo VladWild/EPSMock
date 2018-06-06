@@ -1,8 +1,10 @@
 package com.epam.eps.framework.core;
 
+import com.epam.eps.EmergencyPreventionSystem;
 import com.epam.eps.framework.support.EpsBeanProcessor;
 import com.epam.eps.framework.support.risk.Max;
 import com.epam.eps.framework.support.risk.Min;
+import org.apache.log4j.Logger;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -24,10 +26,13 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 	Map<String, Object> epsCommonBeanDefinitions;
 	Set<String> riskZones;
 
+	private final static Logger logger = Logger.getLogger(EpsResourceBundleAnnotationContext.class);
+
 	EpsResourceBundleAnnotationContext() {
 	}
 
 	public EpsResourceBundleAnnotationContext(String baseName) {
+		logger.info("log in EpsResourceBundleAnnotationContext class");
 		bundleConfig = ResourceBundle.getBundle(baseName);
 		epsCommonBeanProcessors = new LinkedHashMap<>();
 		epsSpecialBeanProcessors = new LinkedHashMap<>();
