@@ -1,11 +1,15 @@
 package com.epam.eps.framework.support.inject;
 
 import com.epam.eps.framework.core.EpsContext;
+import com.epam.eps.framework.core.EpsResourceBundleAnnotationContext;
 import com.epam.eps.framework.support.EpsBeanProcessor;
+import org.apache.log4j.Logger;
 
 import java.lang.reflect.Field;
 
 public class InjectBeanProcessor implements EpsBeanProcessor {
+
+	private final static Logger logger = Logger.getLogger(InjectBeanProcessor.class);
 
 	@Override
 	public Object process(Object bean, EpsContext context) {
@@ -17,7 +21,12 @@ public class InjectBeanProcessor implements EpsBeanProcessor {
 				field.setAccessible(true);
 				try {
 					field.set(bean, objectForInjection);
+					logger.info("In field " + "\"" + field.getName() + "\"" +
+					" was injected with the object " + "\"" +
+							objectForInjection.getClass().getSimpleName() + "\"");
 				} catch (IllegalArgumentException | IllegalAccessException e) {
+					logger.error("Injection in field " + "\"" + field.getName() + "\"" +
+							" is impossible. Exception: " + e.toString());
 					e.printStackTrace();
 				}
 			}

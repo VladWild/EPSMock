@@ -1,6 +1,3 @@
-/**
- *
- */
 package com.epam.eps;
 
 import com.epam.eps.framework.core.EpsResourceBundleAnnotationContext;
@@ -54,29 +51,35 @@ public class EmergencyPreventionSystem {
 
     private void run() throws IOException {
         Locale.setDefault(new Locale("en"));
+
+        logger.info("Creating a Context");
         EpsResourceBundleAnnotationContext epsResourceBundleAnnotationContext = new EpsResourceBundleAnnotationContext(
                 "config");
+
+        logger.info("Initializing the Context");
         epsResourceBundleAnnotationContext.init();
 
+        logger.info("Get report of application \"Emergency Prevention System\" from context");
         Report report = (Report) epsResourceBundleAnnotationContext.getEPSBean(REPORT_ID);
 
+        logger.info("Creating printer for the report");
         Printer printer = FactoryPrinters.getTypePrinter(FactoryPrinters.FILE);
+        logger.info("Printing report");
         printer.print(report.getReport());
     }
 
     public static void main(String[] args) {
         //PropertyConfigurator.configure("src/main/resources/log4j.properties");
         PropertyConfigurator.configure("src/main/resources/log4j.xml");
-        logger.info("start application");
-        logger.debug("cdcce wcetyhwc");
-        logger.debug("cdcce wceewewdewdewdtyhwc");
-        logger.trace("trace");
-        logger.error("error message ");
+
+        logger.info("Application \"Emergency Prevention System\" is start");
 
         EmergencyPreventionSystem emergencyPreventionSystem = new EmergencyPreventionSystem();
         try {
+            logger.info("Application \"Emergency Prevention System\" is run");
             emergencyPreventionSystem.run();
         } catch (IOException e) {
+            logger.error("The output file is not found. Exception: " + e.toString());
             e.printStackTrace();
         }
     }

@@ -2,6 +2,8 @@ package com.epam.eps.framework.support.risk;
 
 import com.epam.eps.framework.core.EpsContext;
 import com.epam.eps.framework.support.EpsBeanProcessor;
+import com.epam.eps.framework.support.inject.InjectBeanProcessor;
+import org.apache.log4j.Logger;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;
@@ -10,6 +12,8 @@ import java.util.Arrays;
  * @author Alexander_Lotsmanov
  */
 public class RiskListBeanProcessor implements EpsBeanProcessor {
+
+	private final static Logger logger = Logger.getLogger(RiskListBeanProcessor.class);
 
 	@Override
 	public Object process(Object bean, EpsContext context) {
@@ -24,7 +28,14 @@ public class RiskListBeanProcessor implements EpsBeanProcessor {
 				field.setAccessible(true);
 				try {
 					field.set(bean, Arrays.asList(risks));
+					logger.info("In field " + "\"" + field.getName() + "\"" +
+							" the following risks were injected " +
+							Arrays.stream(risks).map(risk -> risk.getClass().getSimpleName()).
+									reduce("", (accomulator, element) ->
+                                            accomulator + "\"" + element + "\" "));
 				} catch (IllegalArgumentException | IllegalAccessException e) {
+					logger.error("Injection in field " + "\"" + field.getName() + "\"" +
+							" is impossible. Exception: " + e.toString());
 					e.printStackTrace();
 				}
 			}

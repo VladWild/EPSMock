@@ -1,5 +1,92 @@
-2018-06-06 16:56:08 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - start application
-2018-06-06 16:56:08 [epam.eps.EmergencyPreventionSystem] DEBUG [main]: - cdcce wcetyhwc
-2018-06-06 16:56:08 [epam.eps.EmergencyPreventionSystem] DEBUG [main]: - cdcce wceewewdewdewdtyhwc
-2018-06-06 16:56:08 [epam.eps.EmergencyPreventionSystem] TRACE [main]: - trace
-2018-06-06 16:56:08 [epam.eps.EmergencyPreventionSystem] ERROR [main]: - error message 
+2018-06-08 19:03:32 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - Application "Emergency Prevention System" is start
+2018-06-08 19:03:32 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - Application "Emergency Prevention System" is run
+2018-06-08 19:03:32 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - Creating a Context
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] WARN  [main]: - Getting the config file
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Creating collections processors, definitions and risk zones
+2018-06-08 19:03:32 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - Initializing the Context
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Registered bean processors
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] WARN  [main]: - Registered common bean processors
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate processor - com.epam.eps.framework.support.randomsector.RandomSectorBeanProcessor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate processor - com.epam.eps.framework.support.risk.RiskZoneBeanProcessor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] WARN  [main]: - Registered special bean processors
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate processor - com.epam.eps.model.searcher.InjectRiskGroupsBeanProcessor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate processor - com.epam.eps.framework.support.risk.RiskListBeanProcessor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate processor - com.epam.eps.framework.support.inject.InjectBeanProcessor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] WARN  [main]: - Registered bean definitions
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.SimpleReviewSector
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.SimpleEpsService
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.SimpleReport
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.risk.CriticalRisk
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.risk.MajorRisk
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.risk.NormalRisk
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.risk.MinorRisk
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Generate definition - com.epam.eps.model.risk.NoneRisk
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - The tuning of definitions in common beans
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReviewSector" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [omsector.RandomSectorBeanProcessor] INFO  [main]: - Creating a random field
+2018-06-08 19:03:32 [omsector.RandomSectorBeanProcessor] INFO  [main]: - In field "cells" was injected with a random created field
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleEpsService" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReport" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "CriticalRisk" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MajorRisk" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NormalRisk" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MinorRisk" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NoneRisk" in "RandomSectorBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReviewSector" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleEpsService" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReport" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "CriticalRisk" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "CriticalRisk" was injected in field "min" value 10
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "CriticalRisk" was injected in field "max" value 2147483647
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - The risk zone with id "eps.bean.id.risk.critical" was added in context
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MajorRisk" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "MajorRisk" was injected in field "min" value 7
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "MajorRisk" was injected in field "max" value 9
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - The risk zone with id "eps.bean.id.risk.major" was added in context
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NormalRisk" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "NormalRisk" was injected in field "min" value 5
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "NormalRisk" was injected in field "max" value 6
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - The risk zone with id "eps.bean.id.risk.normal" was added in context
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MinorRisk" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "MinorRisk" was injected in field "min" value 3
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "MinorRisk" was injected in field "max" value 4
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - The risk zone with id "eps.bean.id.risk.minor" was added in context
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NoneRisk" in "RiskZoneBeanProcessor" processor
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "NoneRisk" was injected in field "min" value 1
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - In the risk zone "NoneRisk" was injected in field "max" value 2
+2018-06-08 19:03:32 [support.risk.RiskZoneBeanProcessor] INFO  [main]: - The risk zone with id "eps.bean.id.risk.none" was added in context
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - The tuning of definitions in special beans
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReviewSector" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleEpsService" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [cher.InjectRiskGroupsBeanProcessor] INFO  [main]: - Getting groups on the field
+2018-06-08 19:03:32 [cher.InjectRiskGroupsBeanProcessor] INFO  [main]: - Added all groups in context
+2018-06-08 19:03:32 [cher.InjectRiskGroupsBeanProcessor] INFO  [main]: - In field "groups" was injected all groups
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReport" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "CriticalRisk" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MajorRisk" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NormalRisk" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MinorRisk" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NoneRisk" in "InjectRiskGroupsBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReviewSector" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleEpsService" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReport" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [support.risk.RiskListBeanProcessor] INFO  [main]: - In field "risks" the following risks were injected "NoneRisk" "MinorRisk" "NormalRisk" "MajorRisk" "CriticalRisk" 
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "CriticalRisk" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MajorRisk" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NormalRisk" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MinorRisk" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NoneRisk" in "RiskListBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReviewSector" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleEpsService" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "SimpleReport" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [support.inject.InjectBeanProcessor] INFO  [main]: - In field "reviewSector" was injected with the object "SimpleReviewSector"
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "CriticalRisk" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MajorRisk" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NormalRisk" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "MinorRisk" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Turning definition "NoneRisk" in "InjectBeanProcessor" processor
+2018-06-08 19:03:32 [EpsResourceBundleAnnotationContext] INFO  [main]: - Calling methods with the "Init" annotation
+2018-06-08 19:03:32 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - Get report of application "Emergency Prevention System" from context
+2018-06-08 19:03:32 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - Creating printer for the report
+2018-06-08 19:03:32 [epam.eps.EmergencyPreventionSystem] INFO  [main]: - Printing report
+2018-06-08 19:03:32 [pam.eps.model.printers.FilePrinter] INFO  [main]: - Output text in file

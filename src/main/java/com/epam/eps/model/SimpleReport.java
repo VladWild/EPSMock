@@ -7,6 +7,8 @@ import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.support.inject.Inject;
 import com.epam.eps.framework.support.risk.RiskList;
 import com.epam.eps.model.risk.Risk;
+import com.epam.eps.model.searcher.InjectRiskGroupsBeanProcessor;
+import org.apache.log4j.Logger;
 
 import java.util.List;
 
@@ -42,6 +44,8 @@ public class SimpleReport implements Report {
 
     private static final String EPS_BEAN_ID_REVIEW_SECTOR = "eps.bean.id.reviewSector";
 
+    private final static Logger logger = Logger.getLogger(SimpleReport.class);
+
     @RiskList(id = {EPS_BEAN_ID_RISK_NONE, EPS_BEAN_ID_RISK_MINOR,
             EPS_BEAN_ID_RISK_NORMAL, EPS_BEAN_ID_RISK_MAJOR, EPS_BEAN_ID_RISK_CRITICAL})
     private List<Risk> risks;
@@ -62,8 +66,10 @@ public class SimpleReport implements Report {
 
     @Override
     public String getReport() {
+        logger.trace("Creating report");
         StringBuilder report = new StringBuilder();
 
+        logger.trace("Begin of formatting report");
         report.append(String.format(ENTER));
         report.append(String.format(WITH_ENTER, EPS));
         report.append(getCountSymbols(String.format(WITH_ENTER, getCountSymbols(TRAIT, COUNT_TRAIT)), COUNT_DELIMITERS));
@@ -83,6 +89,8 @@ public class SimpleReport implements Report {
         report.append(String.format(WITH_ENTER, getCountSymbols(TRAIT, COUNT_TRAIT)));
         risks.forEach(risk -> report.append(String.format(WITH_ENTER,
                 risk.getClass().getSimpleName() + COLON + SPACE + risk.getGroups().size() + SPACE + GROUPS + SEMICOLON)));
+
+        logger.trace("End of formatting report");
 
         return report.toString();
     }
@@ -134,6 +142,7 @@ public class SimpleReport implements Report {
 
     @Override
     public String getSector(Cell[][] quadrantsMatrix) {
+        logger.trace("Create sector");
         StringBuilder field = new StringBuilder();
 
         int width = quadrantsMatrix[0].length;
@@ -142,8 +151,10 @@ public class SimpleReport implements Report {
         int countDigitsMaxWidth = getCountDigits(width - 1);
         int countDigitsMaxHeight = getCountDigits(height - 1);
 
+        logger.trace("Get header");
         field.append(getHeader(width, countDigitsMaxWidth, countDigitsMaxHeight));
 
+        logger.trace("Get field");
         for (int i = 0; i < height; i++) {
             field.append(SPACE);
             field.append(String.format(NUMBER, getNumberWithSpaces(i, countDigitsMaxHeight)));

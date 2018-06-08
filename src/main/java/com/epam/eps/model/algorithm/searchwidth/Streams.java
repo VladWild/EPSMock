@@ -1,8 +1,10 @@
 package com.epam.eps.model.algorithm.searchwidth;
 
+import com.epam.eps.EmergencyPreventionSystem;
 import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.core.Group;
 import com.epam.eps.model.algorithm.Search;
+import org.apache.log4j.Logger;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -11,6 +13,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Streams extends Search {
+    private final static Logger logger = Logger.getLogger(Streams.class);
 
     public Streams(Object bean) {
         super(bean);

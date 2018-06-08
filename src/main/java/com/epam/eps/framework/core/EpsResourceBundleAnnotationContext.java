@@ -32,8 +32,9 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 	}
 
 	public EpsResourceBundleAnnotationContext(String baseName) {
-		logger.info("log in EpsResourceBundleAnnotationContext class");
+		logger.warn("Getting the config file");
 		bundleConfig = ResourceBundle.getBundle(baseName);
+		logger.info("Creating collections processors, definitions and risk zones");
 		epsCommonBeanProcessors = new LinkedHashMap<>();
 		epsSpecialBeanProcessors = new LinkedHashMap<>();
 		epsCommonBeanDefinitions = new LinkedHashMap<>();
@@ -42,10 +43,15 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 
 	@Override
 	public void init() {
+		logger.info("Registered bean processors");
 		registeredEpsBeanProcessors();
+		logger.warn("Registered bean definitions");
 		registeredEpsBeanDefinitions();
+		logger.info("The tuning of definitions in common beans");
 		tuningEpsBeans(epsCommonBeanProcessors);
+		logger.info("The tuning of definitions in special beans");
 		tuningEpsBeans(epsSpecialBeanProcessors);
+		logger.info("Calling methods with the \"Init\" annotation");
 		doInit();
 	}
 
@@ -58,6 +64,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 						method.invoke(bean);
 					} catch (IllegalAccessException | IllegalArgumentException
 							| InvocationTargetException e) {
+						logger.error("Initialization is not possible. Exception: " + e.toString());
 						e.printStackTrace();
 					}
 				}
@@ -66,7 +73,9 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 	}
 
 	private void registeredEpsBeanProcessors() {
+		logger.warn("Registered common bean processors");
 		registeredEpsCommonBeanProcessors();
+		logger.warn("Registered special bean processors");
 		registeredEpsSpecialBeanProcessors();
 	}
 
@@ -91,6 +100,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 				.split(CONFIG_BEANS_DELIMITER);
 		for (String epsBeanDefinitionsClassName : epsBeanDefinitionsClassNames) {
 			if (!epsBeanDefinitionsClassName.isEmpty()) {
+			    logger.info("Generate processor - " + epsBeanDefinitionsClassName);
 				epsBeans.put(epsBeanDefinitionsClassName, getObject(
 						epsBeanDefinitionsClassName, EpsBeanProcessor.class));
 			}
@@ -103,6 +113,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 		String[] epsBeansClassNames = beansList.split(CONFIG_BEANS_DELIMITER);
 		for (String epsBeansClassName : epsBeansClassNames) {
 			if (!epsBeansClassName.isEmpty()) {
+                logger.info("Generate definition - " + epsBeansClassName);
 				epsCommonBeanDefinitions.put(epsBeansClassName,
 						getObject(epsBeansClassName, Object.class));
 			}
@@ -116,6 +127,8 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 		for (Entry<String, EpsBeanProcessor> processorEntry : processors) {
 			for (Entry<String, Object> beanEntry : beans) {
 				Object processedBean = beanEntry.getValue();
+                logger.info("Turning definition \"" + processedBean.getClass().getSimpleName() +
+                        "\" in \"" + processorEntry.getValue().getClass().getSimpleName() + "\" processor");
 				processedBean = processorEntry.getValue().process(processedBean,
 						this);
 				beanEntry.setValue(processedBean);
@@ -129,10 +142,15 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 		try {
 			beanClassName = bundleConfig.getString(id);
 			if (!epsCommonBeanDefinitions.containsKey(beanClassName)) {
+			    logger.error(String.format("Hasn't object with id %s.", id));
 				throw new IllegalArgumentException(
 						String.format("Hasn't object with id %s.", id));
+
 			}
 		} catch (MissingResourceException e) {
+            logger.error(String.format(
+                    "Hasn't definition of object with id \"%s\" in config-file \"%s\".",
+                    id, bundleConfig.getBaseBundleName()) + " Exception" + e.toString());
 			throw new IllegalArgumentException(String.format(
 					"Hasn't definition of object with id \"%s\" in config-file \"%s\".",
 					id, bundleConfig.getBaseBundleName()), e);
@@ -146,12 +164,12 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 		Set<Entry<String, Object>> entrySet = epsCommonBeanDefinitions
 				.entrySet();
 		for (Entry<String, Object> definitionEntry : entrySet) {
-
 			Object bean = definitionEntry.getValue();
 			if (type.isInstance(bean)) {
 				return (T) bean;
 			}
 		}
+        logger.error("Hasn't object of class " + type);
 		throw new IllegalArgumentException("Hasn't object of class " + type);
 	}
 
@@ -162,6 +180,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 			instance = (T) Class.forName(className).newInstance();
 		} catch (InstantiationException | IllegalAccessException
 				| ClassNotFoundException e) {
+            logger.error("Error in getting object. Exception " + e.toString());
 			e.printStackTrace();
 		}
 		return instance;
@@ -207,6 +226,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 						} catch (IllegalAccessException
 								| IllegalArgumentException
 								| InvocationTargetException e) {
+                            logger.error("Error in adding a group. Exception " + e.toString());
 							e.printStackTrace();
 						}
 					}
