@@ -210,12 +210,12 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 			int min = -1;
 			int max = -1;
 			for (Field field : beanClass.getDeclaredFields()) {
-				if (field.isAnnotationPresent(Min.class)) {
-					min = field.getAnnotation(Min.class).value();
-				} else if (field.isAnnotationPresent(Max.class)) {
-					max = field.getAnnotation(Max.class).value();
-				}
-			}
+                if (field.isAnnotationPresent(Min.class)) {
+                    min = field.getAnnotation(Min.class).value();
+                } else if (field.isAnnotationPresent(Max.class)) {
+                    max = field.getAnnotation(Max.class).value();
+                }
+            }
 			if (group.getCells().size() >= min
 					&& group.getCells().size() <= max) {
 				Method[] methods = bean.getClass().getDeclaredMethods();
@@ -226,7 +226,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 						} catch (IllegalAccessException
 								| IllegalArgumentException
 								| InvocationTargetException e) {
-                            logger.error("Error in adding a group. Exception " + e.toString());
+                            logger.error("Error in adding a group. Exception: " + e.toString());
 							e.printStackTrace();
 						}
 					}

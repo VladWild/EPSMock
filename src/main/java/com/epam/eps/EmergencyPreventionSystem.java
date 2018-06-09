@@ -69,9 +69,6 @@ public class EmergencyPreventionSystem {
     }
 
     public static void main(String[] args) {
-        //PropertyConfigurator.configure("src/main/resources/log4j.properties");
-        PropertyConfigurator.configure("src/main/resources/log4j.xml");
-
         logger.info("Application \"Emergency Prevention System\" is start");
 
         EmergencyPreventionSystem emergencyPreventionSystem = new EmergencyPreventionSystem();
