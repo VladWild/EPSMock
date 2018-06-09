@@ -68,7 +68,10 @@ public class EmergencyPreventionSystem {
         printer.print(report.getReport());
     }
 
+    //debug
     public static void main(String[] args) {
+        PropertyConfigurator.configure("src/main/resources/log4j.xml");
+
         logger.info("Application \"Emergency Prevention System\" is start");
 
         EmergencyPreventionSystem emergencyPreventionSystem = new EmergencyPreventionSystem();

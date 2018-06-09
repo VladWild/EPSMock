@@ -1,25 +1,3 @@
-2018-06-09 15:11:10,270 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "MinorRisk" in "InjectRiskGroupsBeanProcessor" processor
-2018-06-09 15:11:10,271 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "NoneRisk" in "InjectRiskGroupsBeanProcessor" processor
-2018-06-09 15:11:10,271 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "SimpleReviewSector" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,271 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "SimpleEpsService" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,271 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "SimpleReport" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,272 INFO  com.epam.eps.framework.support.risk.RiskListBeanProcessor             - In field "risks" the following risks were injected "NoneRisk" "MinorRisk" "NormalRisk" "MajorRisk" "CriticalRisk" 
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "CriticalRisk" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "MajorRisk" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "NormalRisk" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "MinorRisk" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "NoneRisk" in "RiskListBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "SimpleReviewSector" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "SimpleEpsService" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "SimpleReport" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,273 INFO  com.epam.eps.framework.support.inject.InjectBeanProcessor             - In field "reviewSector" was injected with the object "SimpleReviewSector"
-2018-06-09 15:11:10,274 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "CriticalRisk" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,274 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "MajorRisk" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,274 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "NormalRisk" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,274 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "MinorRisk" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,274 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "NoneRisk" in "InjectBeanProcessor" processor
-2018-06-09 15:11:10,274 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Calling methods with the "Init" annotation
-2018-06-09 15:11:10,275 INFO  com.epam.eps.EmergencyPreventionSystem                                - Get report of application "Emergency Prevention System" from context
-2018-06-09 15:11:10,275 INFO  com.epam.eps.EmergencyPreventionSystem                                - Creating printer for the report
-2018-06-09 15:11:10,277 INFO  com.epam.eps.EmergencyPreventionSystem                                - Printing report
-2018-06-09 15:11:10,282 WARN  com.epam.eps.model.printers.FilePrinter                               - Output text in file
+2018-06-09 16:41:31,905 INFO  com.epam.eps.EmergencyPreventionSystem                                - Creating printer for the report
+2018-06-09 16:41:31,905 INFO  com.epam.eps.EmergencyPreventionSystem                                - Printing report
+2018-06-09 16:41:31,905 WARN  com.epam.eps.model.printers.FilePrinter                               - Output text in file
