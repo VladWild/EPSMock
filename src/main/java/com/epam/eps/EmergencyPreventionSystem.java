@@ -50,25 +50,25 @@ public class EmergencyPreventionSystem {
     private final static Logger logger = Logger.getLogger(EmergencyPreventionSystem.class);
 
     private void run() throws IOException {
+        logger.debug("Set the \"en\" locale");
         Locale.setDefault(new Locale("en"));
 
-        logger.info("Creating a Context");
+        logger.debug("Creating a context that stores all the beans");
         EpsResourceBundleAnnotationContext epsResourceBundleAnnotationContext = new EpsResourceBundleAnnotationContext(
                 "config");
 
-        logger.info("Initializing the Context");
+        logger.debug("Initializing the Context with all Beans");
         epsResourceBundleAnnotationContext.init();
 
-        logger.info("Get report of application \"Emergency Prevention System\" from context");
+        logger.debug("Get report of application \"Emergency Prevention System\" from context");
         Report report = (Report) epsResourceBundleAnnotationContext.getEPSBean(REPORT_ID);
 
-        logger.info("Creating printer for the report");
+        logger.debug("Creating printer for the report");
         Printer printer = FactoryPrinters.getTypePrinter(FactoryPrinters.FILE);
-        logger.info("Printing report");
+        logger.debug("Printing report");
         printer.print(report.getReport());
     }
 
-    //debug
     public static void main(String[] args) {
         PropertyConfigurator.configure("src/main/resources/log4j.xml");
 
@@ -76,7 +76,7 @@ public class EmergencyPreventionSystem {
 
         EmergencyPreventionSystem emergencyPreventionSystem = new EmergencyPreventionSystem();
         try {
-            logger.info("Application \"Emergency Prevention System\" is run");
+            logger.debug("Application \"Emergency Prevention System\" is run");
             emergencyPreventionSystem.run();
         } catch (IOException e) {
             logger.error("The output file is not found. Exception: " + e.toString());

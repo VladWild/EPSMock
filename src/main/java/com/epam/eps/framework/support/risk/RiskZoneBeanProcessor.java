@@ -9,11 +9,11 @@ import java.lang.reflect.Field;
 import java.util.MissingFormatArgumentException;
 
 public class RiskZoneBeanProcessor implements EpsBeanProcessor {
-
 	private final static Logger logger = Logger.getLogger(RiskZoneBeanProcessor.class);
 
 	@Override
 	public Object process(Object bean, EpsContext context) {
+		logger.debug("\"" + toString() + "\" is started");
 		Class<?> beanClass = bean.getClass();
 		if (beanClass.isAnnotationPresent(RiskZone.class)) {
 			RiskZone riskZoneAnnotation = beanClass
@@ -21,10 +21,15 @@ public class RiskZoneBeanProcessor implements EpsBeanProcessor {
 			String riskZoneId = riskZoneAnnotation.id();
 			fillBorders(bean);
 			context.addRiskZone(riskZoneId);
-			logger.info("The risk zone with id \"" + riskZoneId +
+			logger.debug("The risk zone with id \"" + riskZoneId +
 					"\" was added in context");
 		}
 		return bean;
+	}
+
+	@Override
+	public String toString(){
+		return getClass().getSimpleName();
 	}
 
 	private void fillBorders(Object bean)
@@ -38,7 +43,7 @@ public class RiskZoneBeanProcessor implements EpsBeanProcessor {
 				field.setAccessible(true);
 				try {
 					field.set(bean, min);
-					logger.info("In the risk zone \"" + bean.getClass().getSimpleName() +
+					logger.debug("In the risk zone \"" + bean.getClass().getSimpleName() +
 							"\" was injected in field \"min\" value " + min);
 				} catch (IllegalArgumentException | IllegalAccessException e) {
 					logger.error("Injection in field " + "\"" + field.getName() + "\"" +
@@ -50,7 +55,7 @@ public class RiskZoneBeanProcessor implements EpsBeanProcessor {
 				field.setAccessible(true);
 				try {
 					field.set(bean, max);
-					logger.info("In the risk zone \"" + bean.getClass().getSimpleName() +
+					logger.debug("In the risk zone \"" + bean.getClass().getSimpleName() +
 							"\" was injected in field \"max\" value " + max);
 				} catch (IllegalArgumentException | IllegalAccessException e) {
 					logger.error("Injection in field " + "\"" + field.getName() + "\"" +

@@ -36,4 +36,9 @@ public class NormalRisk implements Risk {
     public void addAnotherOneGroup(Group group) {
         groups.add(group);
     }
+
+    @Override
+    public String toString() {
+        return "NormalRisk{" + "min=" + min + ", max=" + max + ", groups=" + groups + '}';
+    }
 }

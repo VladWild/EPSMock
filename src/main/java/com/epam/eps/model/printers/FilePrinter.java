@@ -12,7 +12,7 @@ public class FilePrinter implements Printer {
 
     @Override
     public void print(String text) throws IOException {
-        logger.warn("Output text in file");
+        logger.info("Output text in file");
         try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
                 new FileOutputStream(PATH_FILE), StandardCharsets.UTF_8))) {
             writer.write(text.toCharArray());

@@ -1,1 +1,14 @@
-2018-06-09 16:11:25,319 WARN  com.epam.eps.model.printers.FilePrinter                               - Output text in file
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.framework.support.inject.InjectBeanProcessor             - "InjectBeanProcessor" is started
+2018-06-13 10:51:00,872 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "MajorRisk" in "InjectBeanProcessor" processor
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.framework.support.inject.InjectBeanProcessor             - "InjectBeanProcessor" is started
+2018-06-13 10:51:00,872 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "NormalRisk" in "InjectBeanProcessor" processor
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.framework.support.inject.InjectBeanProcessor             - "InjectBeanProcessor" is started
+2018-06-13 10:51:00,872 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "MinorRisk" in "InjectBeanProcessor" processor
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.framework.support.inject.InjectBeanProcessor             - "InjectBeanProcessor" is started
+2018-06-13 10:51:00,872 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Turning definition "NoneRisk" in "InjectBeanProcessor" processor
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.framework.support.inject.InjectBeanProcessor             - "InjectBeanProcessor" is started
+2018-06-13 10:51:00,872 INFO  com.epam.eps.framework.core.EpsResourceBundleAnnotationContext        - Calling methods with the "Init" annotation
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.EmergencyPreventionSystem                                - Get report of application "Emergency Prevention System" from context
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.EmergencyPreventionSystem                                - Creating printer for the report
+2018-06-13 10:51:00,872 DEBUG com.epam.eps.EmergencyPreventionSystem                                - Printing report
+2018-06-13 10:51:00,872 INFO  com.epam.eps.model.printers.FilePrinter                               - Output text in file

@@ -12,11 +12,11 @@ import java.util.Arrays;
  * @author Alexander_Lotsmanov
  */
 public class RiskListBeanProcessor implements EpsBeanProcessor {
-
 	private final static Logger logger = Logger.getLogger(RiskListBeanProcessor.class);
 
 	@Override
 	public Object process(Object bean, EpsContext context) {
+        logger.debug("\"" + toString() + "\" is started");
 		Field[] declaredFields = bean.getClass().getDeclaredFields();
 		for (Field field : declaredFields) {
 			if (field.isAnnotationPresent(RiskList.class)) {
@@ -28,9 +28,9 @@ public class RiskListBeanProcessor implements EpsBeanProcessor {
 				field.setAccessible(true);
 				try {
 					field.set(bean, Arrays.asList(risks));
-					logger.info("In field " + "\"" + field.getName() + "\"" +
+					logger.debug("In field " + "\"" + field.getName() + "\"" +
 							" the following risks were injected " +
-							Arrays.stream(risks).map(risk -> risk.getClass().getSimpleName()).
+							Arrays.stream(risks).map(Object::toString).
 									reduce("", (accomulator, element) ->
                                             accomulator + "\"" + element + "\" "));
 				} catch (IllegalArgumentException | IllegalAccessException e) {
@@ -42,5 +42,10 @@ public class RiskListBeanProcessor implements EpsBeanProcessor {
 		}
 		return bean;
 	}
+
+    @Override
+    public String toString(){
+        return getClass().getSimpleName();
+    }
 
 }

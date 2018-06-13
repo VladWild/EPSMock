@@ -9,11 +9,11 @@ import org.apache.log4j.Logger;
 import java.lang.reflect.Field;
 
 public class RandomSectorBeanProcessor implements EpsBeanProcessor {
-
 	private final static Logger logger = Logger.getLogger(RandomSectorBeanProcessor.class);
 
 	@Override
 	public Object process(Object bean, EpsContext context) {
+		logger.debug("\"" + toString() + "\" is started");
 		Field[] declaredFields = bean.getClass().getDeclaredFields();
 		for (Field field : declaredFields) {
 			if (field.isAnnotationPresent(RandomSector.class)) {
@@ -22,13 +22,13 @@ public class RandomSectorBeanProcessor implements EpsBeanProcessor {
 				int width = annotation.width();
 				int height = annotation.height();
 				double fillFactor = annotation.fillFactor();
-				logger.info("Creating a random field");
+				logger.debug("Creating a random field");
 				Cell[][] filledField = getFilledField(width, height,
 						fillFactor);
 				field.setAccessible(true);
 				try {
 					field.set(bean, filledField);
-					logger.info("In field " + "\"" + field.getName() + "\"" +
+					logger.debug("In field " + "\"" + field.getName() + "\"" +
 							" was injected with a random created field");
 				} catch (IllegalArgumentException | IllegalAccessException e) {
 					logger.error("Injection in field " + "\"" + field.getName() + "\"" +
@@ -38,6 +38,11 @@ public class RandomSectorBeanProcessor implements EpsBeanProcessor {
 			}
 		}
 		return bean;
+	}
+
+	@Override
+	public String toString(){
+		return getClass().getSimpleName();
 	}
 
 	private Cell[][] getFilledField(int width, int height, double fillFactor) {

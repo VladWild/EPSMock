@@ -4,10 +4,7 @@ import com.epam.eps.framework.core.Cell;
 import com.epam.eps.framework.support.randomsector.RandomSector;
 import org.apache.log4j.Logger;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class SimpleReviewSector implements ReviewSector {
@@ -91,6 +88,17 @@ public class SimpleReviewSector implements ReviewSector {
                 .flatMap(Arrays::stream)
                 .filter(Objects::nonNull)
                 .collect(Collectors.toSet());
+    }
+
+    @Override
+    public String toString() {
+        return cells != null ? "SimpleReviewSector{" + "cells=" + Arrays.stream(cells).
+                flatMap(Arrays::stream).
+                filter(Objects::nonNull).
+                map(Object::toString).
+                reduce("", (accomulator, cell) ->
+                        accomulator + "\"" + cell + "\" ") + '}' :
+                "SimpleReviewSector{" + "cells=null}";
     }
 }
 

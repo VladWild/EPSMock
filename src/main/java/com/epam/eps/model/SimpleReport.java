@@ -171,5 +171,10 @@ public class SimpleReport implements Report {
 
         return field.toString();
     }
+
+    @Override
+    public String toString() {
+        return "SimpleReport{" + "risks=" + risks + ", reviewSector=" + reviewSector + '}';
+    }
 }
 

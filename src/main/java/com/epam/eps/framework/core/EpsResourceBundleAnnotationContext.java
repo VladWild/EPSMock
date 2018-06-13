@@ -1,6 +1,5 @@
 package com.epam.eps.framework.core;
 
-import com.epam.eps.EmergencyPreventionSystem;
 import com.epam.eps.framework.support.EpsBeanProcessor;
 import com.epam.eps.framework.support.risk.Max;
 import com.epam.eps.framework.support.risk.Min;
@@ -32,9 +31,9 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 	}
 
 	public EpsResourceBundleAnnotationContext(String baseName) {
-		logger.warn("Getting the config file");
+		logger.info("Getting the config file");
 		bundleConfig = ResourceBundle.getBundle(baseName);
-		logger.info("Creating collections processors, definitions and risk zones");
+		logger.debug("Creating collections processors, definitions and risk zones");
 		epsCommonBeanProcessors = new LinkedHashMap<>();
 		epsSpecialBeanProcessors = new LinkedHashMap<>();
 		epsCommonBeanDefinitions = new LinkedHashMap<>();
@@ -73,9 +72,9 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 	}
 
 	private void registeredEpsBeanProcessors() {
-		logger.warn("Registered common bean processors");
+		logger.info("Registered common bean processors");
 		registeredEpsCommonBeanProcessors();
-		logger.warn("Registered special bean processors");
+		logger.info("Registered special bean processors");
 		registeredEpsSpecialBeanProcessors();
 	}
 
@@ -128,7 +127,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 			for (Entry<String, Object> beanEntry : beans) {
 				Object processedBean = beanEntry.getValue();
                 logger.info("Turning definition \"" + processedBean.getClass().getSimpleName() +
-                        "\" in \"" + processorEntry.getValue().getClass().getSimpleName() + "\" processor");
+                        "\" in \"" + processorEntry.getValue().toString() + "\" processor");
 				processedBean = processorEntry.getValue().process(processedBean,
 						this);
 				beanEntry.setValue(processedBean);
@@ -150,7 +149,7 @@ public class EpsResourceBundleAnnotationContext implements EpsContext {
 		} catch (MissingResourceException e) {
             logger.error(String.format(
                     "Hasn't definition of object with id \"%s\" in config-file \"%s\".",
-                    id, bundleConfig.getBaseBundleName()) + " Exception" + e.toString());
+                    id, bundleConfig.getBaseBundleName()) + ". Exception" + e.toString());
 			throw new IllegalArgumentException(String.format(
 					"Hasn't definition of object with id \"%s\" in config-file \"%s\".",
 					id, bundleConfig.getBaseBundleName()), e);

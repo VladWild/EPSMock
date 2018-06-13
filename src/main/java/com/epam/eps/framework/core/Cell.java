@@ -47,6 +47,6 @@ public class Cell {
 
     @Override
     public String toString() {
-        return "new Cell(" + "" + x + ", " + y + ')';
+        return "Cell(" + "" + x + ", " + y + ')';
     }
 }

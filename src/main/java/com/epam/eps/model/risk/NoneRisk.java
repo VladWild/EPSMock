@@ -36,5 +36,10 @@ public class NoneRisk implements Risk {
     public void addAnotherOneGroup(Group group) {
         groups.add(group);
     }
+
+    @Override
+    public String toString() {
+        return "NoneRisk{" + "min=" + min + ", max=" + max + ", groups=" + groups + '}';
+    }
 }
 

@@ -16,25 +16,25 @@ public class Cycles extends Search {
     }
 
     private Group getGroupByCell(Cell cell) {
-        logger.debug("Create group");
+        logger.trace("Create group");
         Set<Cell> group = new HashSet<>();
         group.add(cell);
 
-        logger.debug("Create buffer");
+        logger.trace("Create buffer");
         Set<Cell> buffer = new HashSet<>(group);
 
         while (!buffer.isEmpty()) {
-            logger.debug("Create collection neighbor cells");
+            logger.trace("Create collection neighbor cells");
             Set<Cell> allNeighbors = new HashSet<>();
-            logger.debug("Add neighbor cells");
+            logger.trace("Add neighbor cells");
             for (Cell currentCell : buffer) {
                 allNeighbors.addAll(reviewSector.getNeighbors(currentCell));
             }
-            logger.debug("Add neighbor cells in buffer");
+            logger.trace("Add neighbor cells in buffer");
             buffer.addAll(allNeighbors);
-            logger.debug("Removal of neighboring cells that already exist in the group");
+            logger.trace("Removal of neighboring cells that already exist in the group");
             buffer.removeAll(group);
-            logger.debug("Add new cells in the group");
+            logger.trace("Add new cells in the group");
             group.addAll(buffer);
         }
 
@@ -43,11 +43,11 @@ public class Cycles extends Search {
 
     @Override
     public Group[] getGroups() {
-        logger.debug("Get all occupied cells in field");
+        logger.trace("Get all occupied cells in field");
         Set<Cell> occupiedCells = reviewSector.getOccupied();
         for (Cell cell : occupiedCells) {
             if (!isCellInGroups(cell)) {
-                logger.debug("Get group by cell - " + cell);
+                logger.trace("Get group by cell - " + cell);
                 groups.add(getGroupByCell(cell));
             }
         }

@@ -8,11 +8,11 @@ import org.apache.log4j.Logger;
 import java.lang.reflect.Field;
 
 public class InjectBeanProcessor implements EpsBeanProcessor {
-
 	private final static Logger logger = Logger.getLogger(InjectBeanProcessor.class);
 
 	@Override
 	public Object process(Object bean, EpsContext context) {
+		logger.debug("\"" + toString() + "\" is started");
 		Field[] declaredFields = bean.getClass().getDeclaredFields();
 		for (Field field : declaredFields) {
 			if (field.isAnnotationPresent(Inject.class)) {
@@ -21,9 +21,9 @@ public class InjectBeanProcessor implements EpsBeanProcessor {
 				field.setAccessible(true);
 				try {
 					field.set(bean, objectForInjection);
-					logger.info("In field " + "\"" + field.getName() + "\"" +
+					logger.debug("In field " + "\"" + field.getName() + "\"" +
 					" was injected with the object " + "\"" +
-							objectForInjection.getClass().getSimpleName() + "\"");
+							objectForInjection.toString() + "\"");
 				} catch (IllegalArgumentException | IllegalAccessException e) {
 					logger.error("Injection in field " + "\"" + field.getName() + "\"" +
 							" is impossible. Exception: " + e.toString());
@@ -32,6 +32,11 @@ public class InjectBeanProcessor implements EpsBeanProcessor {
 			}
 		}
 		return bean;
+	}
+
+	@Override
+	public String toString(){
+		return getClass().getSimpleName();
 	}
 }
 

@@ -10,26 +10,26 @@ import org.apache.log4j.Logger;
 import java.lang.reflect.Field;
 
 public class InjectRiskGroupsBeanProcessor implements EpsBeanProcessor {
-
     private final static Logger logger = Logger.getLogger(InjectRiskGroupsBeanProcessor.class);
 
     @Override
     public Object process(Object bean, EpsContext context) {
+        logger.debug("\"" + toString() + "\" is started");
         Field[] declaredFields = bean.getClass().getDeclaredFields();
         for (Field field : declaredFields) {
             if (field.isAnnotationPresent(InjectRiskGroups.class)) {
                 String id = field.getAnnotation(InjectRiskGroups.class).viewFieldId();
-                logger.info("Getting groups on the field");
+                logger.debug("Getting groups on the field");
                 Group groups[] = FactoryAlgorithms.getTypeAlgorithm(FactoryAlgorithms.WIDTH_CYCLES,
                         context.getEPSBean(id)).getGroups();
-                logger.info("Added all groups in context");
+                logger.debug("Added all groups in context");
                 for (Group group : groups) {
                     context.takeAccountGroup(group);
                 }
                 field.setAccessible(true);
                 try {
                     field.set(bean, groups);
-                    logger.info("In field " + "\"" + field.getName() + "\"" +
+                    logger.debug("In field " + "\"" + field.getName() + "\"" +
                             " was injected all groups");
                 } catch (IllegalArgumentException | IllegalAccessException e) {
                     e.printStackTrace();
@@ -38,8 +38,12 @@ public class InjectRiskGroupsBeanProcessor implements EpsBeanProcessor {
                 }
             }
         }
-
         return bean;
+    }
+
+    @Override
+    public String toString(){
+        return getClass().getSimpleName();
     }
 }
 
